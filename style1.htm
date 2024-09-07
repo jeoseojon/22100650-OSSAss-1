@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to 22100650's Homepage</title>
+    <style>
+        body{
+            margin: 20px;
+        }
+        *   {
+            box-sizing: border-box;
+        }
+        header {
+            background-color: rgb(4,170,109);
+            padding-left: 13px;
+            padding-bottom: 5px;
+            border-radius: 3px;
+            margin-left: 5px
+        }
+        .navleft {
+            float: left;
+            width: 11%;
+            ul{
+                list-style-type: none;
+                padding: 0;
+            }
+            li{
+                margin: 5px;
+            }
+            .now{
+                background-color: rgb(4,170,109);
+                border-radius: 3px;
+                border: 1px solid rgb(212,212,212);
+                padding: 3px;
+                text-align: left;
+            }
+            .other{
+                background-color: rgb(241,241,241);
+                border-radius: 3px;
+                border: 1px solid rgb(212,212,212);
+                padding: 3px;
+                text-align: left;
+            }
+            span{
+                color: black;
+                font-size: 17px;
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+        .navright {
+            float: right;
+            width: 11%;
+            padding-top:10px;
+            div{
+                background-color: rgb(50,164,231);
+                border-radius: 3px;
+                text-align: left;
+                color: white;
+                font-size: 18px;
+                padding-bottom :50px;
+                padding-top :15px;
+                padding-left: 10px;
+            }
+        }
+        article {
+            float: left;
+            padding: 20px;
+            padding-top: 0px;
+            height: 350px;
+            a{
+                color: black;
+            }
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer {
+            background-color: rgb(241,241,241);
+            border: 1px solid rgb(212,212,212);
+            border-radius: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            color: black;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>
+            <span style="color: white; font-size: 30px; "> <b> Welcome to 22100650's Homepage </b></span><br>
+            <span style="color: white; font-size: 18px;"> Use the menu to select different Stylesheets </span>
+        </p>
+    </header>
+<section>
+  <nav class="navleft";>
+    <ul>
+      <li><a href="style1.htm"><div class="now"><span style="color: white;"><b>Stylesheet 1</b></span></div></a></li>
+      <li><a href="style2.htm"><div class="other"><span>Stylesheet 2</span></div></a></li>
+      <li><a href="style3.htm"><div class="other"><span>Stylesheet 3</span></div></a></li>
+      <li><a href="style4.htm"><div class="other"><span>Stylesheet 4</span></div></a></li>
+      <li><a href="index.htm"><div class="other"><span>No Stylesheet</span></div></a></li>
+    </ul>
+  </nav>
+  <nav class="navright";>
+    <div>
+        <h1>Side-Bar</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+  </nav>
+  <article>
+    <h1 style="font-size: 30px">Same Page Different Stylesheets</h1>
+    <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or
+    <br>by selecting one of the following links:
+    <br><a href="style1.htm">Stylesheet1</a>, <a href="style2.htm">Stylesheet2</a>, <a href="style3.htm">Stylesheet3</a>, <a href="style4.htm">Stylesheet4</a>.</p>
+    <h1 style="font-size: 30px">No Styles</h1>
+    <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+    <br><a href="index.htm">No Stylesheet</a>.</p>
+  </article>
+</section>
+<footer>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+</footer>
+</body>
+</html>
